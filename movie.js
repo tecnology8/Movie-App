@@ -4,7 +4,7 @@ let result = document.getElementById("result");
 
 let getMovie = () =>{
     let movie = movieName.value;
-    //let key = "854e7ae0";
+    
     let key = "Your Api Key"
     let url = `http://www.omdbapi.com/?t=${movie}&apikey=${key}`;
 
